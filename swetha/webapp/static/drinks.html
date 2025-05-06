@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drinks - Munch up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0e8dd;
+    }
+
+    .header {
+      background-color: #ac0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .dish-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .dish-box {
+      width: 300px;
+      background-color: #ffffff;
+      border: 2px solid #ac0000;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .dish-box:hover {
+      transform: scale(1.05);
+    }
+
+    .dish-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .dish-name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #ac0000;
+    }
+
+    .dish-description {
+      font-size: 14px;
+      color: #444;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Drinks</h1>
+  </div>
+
+  <div class="dish-container">
+    <div class="dish-box">
+      <img src="Iced tea.jpg" alt="Tea" class="dish-image">
+      <div class="dish-name">Hibiscus Iced Tea</div>
+      <div class="dish-description">Vibrant drink blends hibiscus, cinnamon, rose, lime, and honey. Perfect for summer with antioxidant and immune-boosting benefits</div>
+    </div>
+
+    <div class="dish-box">
+      <img src="Coconut.jpg" alt="Coconut" class="dish-image">
+      <div class="dish-name">Coconut Lime Refresher Mocktail</div>
+      <div class="dish-description">This Coconut Lime Refresher Mocktail is the perfect drink for a sunny day. With a mix of coconut water and zesty lime, it's super refreshing.
+    </div>
+    </div>
+
+    <div class="dish-box">
+      <img src="Noon  Tea.jpg" alt="meen" class="dish-image">
+      <div class="dish-name">Kashmiri Pink Chai </div>
+      <div class="dish-description">Noon chai is traditionally made from green tea leaves, milk, salt and baking soda, and is usually cooked in a samavar.[</div>
+    </div>
+
+    <div class="dish-box">
+      <img src="Rose.jpg" alt="Prawn" class="dish-image">
+      <div class="dish-name">Rose Falooda</div>
+      <div class="dish-description">Refresh and rejuvenate with our simple and delicious Indian Rose Falooda recipe.</div>
+    </div>
+
+    <div class="dish-box">
+        <img src="Chai.jpg" alt="crab" class="dish-image">
+        <div class="dish-name">Indian Chai</div>
+        <div class="dish-description">  Cardamom Tea is a spiced, flavorful drink made by adding cardamom and ginger while making tea. 
+        </div>
+      </div>
+
+      <div class="dish-box">
+        <img src="Coffee.jpg" alt="egg" class="dish-image">
+        <div class="dish-name">Caramel Hazelnut Iced Coffee</div>
+        <div class="dish-description">Caramel Hazelnut Iced Coffee is a luxurious blend of rich, bold coffee cooled to perfection and flavored with the nutty essence of hazelnut and the sweet, buttery taste of caramel.</div>
+ 
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>

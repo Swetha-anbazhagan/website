@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Munch up Restaurant</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #fff3e0, #f0e8dd);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #ac0000;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    .main-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 40px;
+      padding: 0 20px;
+      flex-grow: 1; /* Ensure the content area takes up available space */
+    }
+
+    .contact-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+      transition: transform 0.3s ease;
+    }
+
+    .contact-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .contact-box h2 {
+      color: #ac0000;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ac0000;
+      padding-bottom: 10px;
+      font-size: 24px;
+    }
+
+    .contact-box p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .contact-box a {
+      color: #ac0000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #ac0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .main-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Munch up Restaurant</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+
+  <section class="main-container">
+    <div class="contact-box">
+      <h2>Contact Information</h2>
+      <p><strong>Email:</strong> <a href="mailto:contact@munchup.com">contact@munchup.com</a></p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Address:</strong> 123 Food Street, Chennai</p>
+    </div>
+
+    <div class="contact-box">
+      <h2>Opening Hours</h2>
+      <p><strong>Monday – Friday:</strong> 10:00 AM – 10:00 PM</p>
+      <p><strong>Saturday – Sunday:</strong> 11:00 AM – 11:00 PM</p>
+      <p><strong>Holidays:</strong> Open all major holidays</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Munch up Restaurant | Designed with ❤️ for food lovers
+  </footer>
+
+</body>
+</html>
+
+

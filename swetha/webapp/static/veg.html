@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vegetarian Dishes - Munch up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0e8dd;
+    }
+
+    .header {
+      background-color: #ac0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .dish-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .dish-box {
+      width: 300px;
+      background-color: #ffffff;
+      border: 2px solid #ac0000;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .dish-box:hover {
+      transform: scale(1.05);
+    }
+
+    .dish-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .dish-name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #ac0000;
+    }
+
+    .dish-description {
+      font-size: 14px;
+      color: #444;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="veglogo.jpg" align="left" height="0.9%" width="0.9%">
+    <h1>Vegetarian Dishes</h1>
+  </div>
+
+  <div class="dish-container">
+    <div class="dish-box">
+      <img src="eggplant.jpg" alt="Eggplant" class="dish-image">
+      <div class="dish-name">Marinated grilled vegetables</div>
+      <div class="dish-description">Marinated grilled vegetables with whipped goat cheese - eggplants, peppers, zucchini, asparagus, and onions, marinated and grilled till soft on the inside and charred on the outside, then doused in garlicky marinade, and served with whipped goat cheese on the side.</div>
+    </div>
+
+    <div class="dish-box">
+      <img src="dumpling.jpg" alt="dumpling" class="dish-image">
+      <div class="dish-name">Coconut Curry Dumpling Soup</div>
+      <div class="dish-description">Pair frozen dumplings or pot stickers with a curry and coconut infused broth, plus a colorful mix of veggies, for a speedy, satisfying supper.</div>
+    </div>
+
+    <div class="dish-box">
+      <img src="Aloo.jpg" alt="Dum Aloo" class="dish-image">
+      <div class="dish-name">Dum Aloo</div>
+      <div class="dish-description">Dum Aloo is a delicious creamy gravy where fried potatoes are dunked in a rich onion tomato based curry. This shahi recipe is easy to make at home and use basic ingredients. Here is how to make it in restaurant or dhaba style.</div>
+    </div>
+
+    <div class="dish-box">
+      <img src="Pasta.jpg" alt="Pasta" class="dish-image">
+      <div class="dish-name">Masala Tikka Pasta</div>
+      <div class="dish-description">Tikka Masala Pasta is a creamy tomato onion gravy coated with boiled pasta, making for one of the most delicious fusion Indian-Italian dishes.</div>
+    </div>
+
+    <div class="dish-box">
+        <img src="Gobi.jpg" alt="Gobi" class="dish-image">
+        <div class="dish-name">Gobi Manchurian</div>
+        <div class="dish-description">Gobi Manchurian is an Indo-Chinese appetizer and this version will blow your mind! It features ridiculously crispy and crunchy fried cauliflower coated in a sweet, tangy, umami-rich chili sauce with lots of aromatics. A MUST-make for your next party or get-together!
+        </div>
+      </div>
+
+      <div class="dish-box">
+        <img src="Panner.jpg" alt="Panner" class="dish-image">
+        <div class="dish-name">nawabi paneer curry</div>
+        <div class="dish-description">Nawabi Paneer is a restaurant-style Indian paneer curry where paneer pieces are simmered in a rich and creamy white sauce. Serve this Mughlai-inspired dish with naan or lachha paratha
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>

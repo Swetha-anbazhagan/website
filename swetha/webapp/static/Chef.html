@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet the Team - Munch up Restaurant</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #fff3e0, #f0e8dd);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #ac0000;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    .team-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-around;
+      gap: 40px;
+      padding: 0 20px;
+      flex-grow: 1;
+      flex-wrap: wrap;
+    }
+
+    .team-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .team-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-box h2 {
+      color: #ac0000;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .team-box p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .team-box img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #ac0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .team-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meet Our Team</h1>
+    <p>Our chefs, CEO, and Director are passionate about bringing you the best dining experience!</p>
+  </header>
+
+  <section class="team-container">
+    <!-- Chef 1 -->
+    <div class="team-box">
+      <img src="John.jpeg" alt="Chef John Doe">
+      <h2>Chef John </h2>
+      <p>Chef John  has over 15 years of experience, specializing in French and Italian cuisines. His dishes combine the essence of traditional flavors with a modern twist.</p>
+    </div>
+
+    <!-- Chef 2 -->
+    <div class="team-box">
+      <img src="Smith.jpeg" alt="Chef Jane Smith">
+      <h2>Chef Smith</h2>
+      <p>Chef Jane Smith brings creativity to the kitchen, focusing on Asian fusion and healthy, plant-based cuisine. Her attention to detail in presentation is unmatched.</p>
+    </div>
+
+    <!-- Chef 3 -->
+    <div class="team-box">
+      <img src="Mark.jpeg" alt="Chef Mark Lee">
+      <h2>Chef Mark </h2>
+      <p>Chef Mark specializes in seafood and sustainable cooking practices. He’s known for his innovative dishes that highlight fresh, seasonal ingredients.</p>
+    </div>
+
+    <!-- CEO -->
+    <div class="team-box">
+      <img src="Emily.jpeg" alt="CEO Emily Clark">
+      <h2>Emily Clark - CEO</h2>
+      <p>Emily Clark is the visionary behind Munch up Restaurant. With a background in business and hospitality, she’s committed to providing customers with an unforgettable dining experience.</p>
+    </div>
+
+    <!-- Director -->
+    <div class="team-box">
+      <img src="director.jpeg" alt="Director Michael Davis">
+      <h2>Michael Davis - Director</h2>
+      <p>Michael Davis manages the operations and overall strategy of the restaurant. He works closely with the chefs and staff to ensure smooth and efficient operations every day.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Munch up Restaurant | Culinary Excellence in Every Bite
+  </footer>
+
+</body>
+</html>
+
